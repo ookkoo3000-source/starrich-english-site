@@ -152,6 +152,10 @@ def head(title, desc, path, rel, og=None):
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{og}">
+<link rel="icon" href="{rel}img/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="{rel}img/favicon.svg">
+<link rel="apple-touch-icon" href="{rel}img/apple-touch-icon.png">
+<meta name="theme-color" content="#123a2e">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
