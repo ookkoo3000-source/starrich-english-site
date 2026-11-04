@@ -106,9 +106,24 @@ def figure_html(s, rel, style=""):
   <figcaption>사진 출처: <a href="{esc(v['page'])}" target="_blank" rel="noopener">Wikimedia Commons</a> · {artist} · {lic}</figcaption>
 </figure>"""
 
+def school_card_file(s):
+    f = f"img/cards/{s['slug']}.jpg" if s else None
+    return f if (f and os.path.exists(os.path.join(ROOT, f))) else None
+
 def og_image_url(s):
     v = school_image(s) if s else None
-    return f"{DOMAIN}/{v['file']}" if v else None
+    if v:
+        return f"{DOMAIN}/{v['file']}"
+    c = school_card_file(s)
+    return f"{DOMAIN}/{c}" if c else None
+
+def card_html(s, rel, style=""):
+    c = school_card_file(s)
+    if not c:
+        return ""
+    return f"""<figure class="school-photo" style="{style}">
+  <img src="{rel}{c}" alt="{esc(s['name'])} ({esc(s['name_en'])})" loading="lazy">
+</figure>"""
 
 # ---------------- html pieces ----------------
 def head(title, desc, path, rel, og=None):
@@ -668,7 +683,7 @@ def build_post(p, posts, countries, city_pages):
   <div class="facts"><span>{p['date']}</span><span>읽는 데 약 {max(3, round(p['chars'] / 600))}분</span>{('<span>' + s['name'] + '</span>') if s else ''}</div>
 </div></section>
 <section><div class="wrap" style="max-width:820px">
-  {figure_html(s, rel, "margin:0 0 22px") if s else ""}
+  {(figure_html(s, rel, "margin:0 0 22px") or card_html(s, rel, "margin:0 0 22px")) if s else ""}
   <article class="post">{p['body']}</article>
   {src}
   {school_box}

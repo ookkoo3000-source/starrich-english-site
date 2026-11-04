@@ -40,3 +40,7 @@ python build.py
 - `python tools/make_og.py` → img/og-default.jpg (1200x630). 브랜드명·도메인·학교 수를 build.py와 데이터에서 읽음. 브랜드 바꾸면 다시 실행
 - 모든 페이지 og:image 기본값. 학교 사진이 있는 학교·칼럼 페이지는 그 사진이 og:image
 - 네이버 블로그 링크 삽입 시 미리보기가 안 뜨면 URL 뒤에 `?v=2` 같은 쿼리를 붙이면 재수집됨(네이버 URL 단위 캐시)
+
+## 인물 사진 금지 (2026-11-04)
+- 사람 얼굴·인물이 보이는 사진은 쓰지 않는다(초상권). `tools/face_check.py`(OpenCV Haar)로 검사, `--remove`로 일괄 제거. fetch_images.py는 다운로드 직후 얼굴 검사해 자동 제외
+- 공용 사진이 없는 학교는 `tools/make_cards.py`가 img/cards/<slug>.jpg(학교명·영문명·도시·교육과정 카드) 생성 → 칼럼 상단·og:image에 자동 사용. 학교 추가 후엔 make_cards.py 재실행

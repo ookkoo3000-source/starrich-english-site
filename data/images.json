@@ -258,17 +258,7 @@
   "credit": "https://www.tes.com/jobs/employer/dulwich-college-beijing-1057433",
   "file": "img/schools/dulwich-college-beijing.jpg"
  },
- "harrow-international-school-beijing": {
-  "score": 10,
-  "title": "File:Gate of Harrow Beijing Hegezhuang Campus (20220309151627).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Gate_of_Harrow_Beijing_Hegezhuang_Campus_(20220309151627).jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Gate_of_Harrow_Beijing_Hegezhuang_Campus_%2820220309151627%29.jpg/1280px-Gate_of_Harrow_Beijing_Hegezhuang_Campus_%2820220309151627%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "N509FZ",
-  "credit": "Own work",
-  "file": "img/schools/harrow-international-school-beijing.jpg"
- },
+ "harrow-international-school-beijing": null,
  "the-british-school-of-beijing-shunyi": {
   "score": 14,
   "title": "File:The British School of Beijing, Shunyi (20220331143903).jpg",
@@ -302,17 +292,7 @@
   "credit": "Own work",
   "file": "img/schools/yew-chung-international-school-of-beijing.jpg"
  },
- "canadian-international-school-of-beijing": {
-  "score": 10,
-  "title": "File:Canadian International School of Beijing (20210410144706).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Canadian_International_School_of_Beijing_(20210410144706).jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Canadian_International_School_of_Beijing_%2820210410144706%29.jpg/1280px-Canadian_International_School_of_Beijing_%2820210410144706%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "N509FZ",
-  "credit": "Own work",
-  "file": "img/schools/canadian-international-school-of-beijing.jpg"
- },
+ "canadian-international-school-of-beijing": null,
  "beijing-world-youth-academy": {
   "score": 11,
   "title": "File:Beijing World Youth Academy, east campus (20220412160247).jpg",
@@ -325,17 +305,7 @@
   "file": "img/schools/beijing-world-youth-academy.jpg"
  },
  "beijing-no-55-high-school-international-student-section": null,
- "tsinghua-international-school": {
-  "score": 6,
-  "title": "File:Tsinghua International School Daoxiang Lake, east gate (20240311155641).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Tsinghua_International_School_Daoxiang_Lake,_east_gate_(20240311155641).jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Tsinghua_International_School_Daoxiang_Lake%2C_east_gate_%2820240311155641%29.jpg/1280px-Tsinghua_International_School_Daoxiang_Lake%2C_east_gate_%2820240311155641%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "N509FZ",
-  "credit": "Own work",
-  "file": "img/schools/tsinghua-international-school.jpg"
- },
+ "tsinghua-international-school": null,
  "american-international-school-of-guangzhou": null,
  "utahloy-international-school-guangzhou": {
   "score": 4,
@@ -766,17 +736,7 @@
   "credit": "Own work",
   "file": "img/schools/school-of-the-nations.jpg"
  },
- "taipei-european-school": {
-  "score": 10,
-  "title": "File:Alexis Kauffmann - Taipei European School - 2017.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Alexis_Kauffmann_-_Taipei_European_School_-_2017.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Alexis_Kauffmann_-_Taipei_European_School_-_2017.jpg/1280px-Alexis_Kauffmann_-_Taipei_European_School_-_2017.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "FramaKa",
-  "credit": "Own work",
-  "file": "img/schools/taipei-european-school.jpg"
- },
+ "taipei-european-school": null,
  "dominican-international-school": {
   "score": 6,
   "title": "File:Dominican International School Taipei main gate 20190705a.jpg",
@@ -858,17 +818,7 @@
   "credit": "Own work",
   "file": "img/schools/the-american-school-in-japan.jpg"
  },
- "the-british-school-in-tokyo": {
-  "score": 5,
-  "title": "File:BSTTokyoentranceshibuya.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:BSTTokyoentranceshibuya.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/BSTTokyoentranceshibuya.jpg/1280px-BSTTokyoentranceshibuya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC0",
-  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "artist": "WhisperToMe",
-  "credit": "Own work",
-  "file": "img/schools/the-british-school-in-tokyo.jpg"
- },
+ "the-british-school-in-tokyo": null,
  "nishimachi-international-school": {
   "score": 7,
   "title": "File:Nishimachi International School.jpg",
@@ -1189,17 +1139,7 @@
   "file": "img/schools/dubai-college.jpg"
  },
  "jumeirah-college": null,
- "jumeirah-english-speaking-school": {
-  "score": 3,
-  "title": "File:JESS Ranches Sports Dubai.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:JESS_Ranches_Sports_Dubai.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/JESS_Ranches_Sports_Dubai.jpg/1280px-JESS_Ranches_Sports_Dubai.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "SchoolPhotos",
-  "credit": "Own work",
-  "file": "img/schools/jumeirah-english-speaking-school.jpg"
- },
+ "jumeirah-english-speaking-school": null,
  "dubai-english-speaking-college": null,
  "dubai-international-academy": null,
  "repton-school-dubai": null,
@@ -1221,17 +1161,7 @@
   "credit": "Own work",
   "file": "img/schools/raha-international-school.jpg"
  },
- "american-school-of-doha": {
-  "score": 11,
-  "title": "File:American School of Doha Military Appreciation Day 2015 150222-A-VK434-002.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:American_School_of_Doha_Military_Appreciation_Day_2015_150222-A-VK434-002.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/American_School_of_Doha_Military_Appreciation_Day_2015_150222-A-VK434-002.jpg/1280px-American_School_of_Doha_Military_Appreciation_Day_2015_150222-A-VK434-002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "Public domain",
-  "license_url": "",
-  "artist": "Eric Franklin",
-  "credit": "https://www.dvidshub.net/image/1801747",
-  "file": "img/schools/american-school-of-doha.jpg"
- },
+ "american-school-of-doha": null,
  "doha-college": null,
  "qatar-academy-doha": null,
  "doha-british-school": null,
@@ -1551,17 +1481,7 @@
   "credit": "Own work",
   "file": "img/schools/the-british-school-in-the-netherlands.jpg"
  },
- "international-school-of-brussels": {
-  "score": 4,
-  "title": "File:Vicenza High School celebrates Homecoming 2018 (4970369).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Vicenza_High_School_celebrates_Homecoming_2018_(4970369).jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Vicenza_High_School_celebrates_Homecoming_2018_%284970369%29.jpg/1280px-Vicenza_High_School_celebrates_Homecoming_2018_%284970369%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "Public domain",
-  "license_url": "",
-  "artist": "U.S. Army USAG-V by Laura Kreider",
-  "credit": "This image was released by the United States Army with the ID 180929-A-LU220-891 (next). This tag does not indicate the ",
-  "file": "img/schools/international-school-of-brussels.jpg"
- },
+ "international-school-of-brussels": null,
  "the-british-school-of-brussels": {
   "score": 10,
   "title": "File:The British School of Brussels Campus.jpg",
@@ -1611,17 +1531,7 @@
  "inter-community-school-zurich": null,
  "international-school-of-lausanne": null,
  "brillantmont-international-school": null,
- "aiglon-college": {
-  "score": 1,
-  "title": "File:John Hubert Christian Corlette.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:John_Hubert_Christian_Corlette.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/John_Hubert_Christian_Corlette.jpg/1280px-John_Hubert_Christian_Corlette.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "Edwinacorlette",
-  "credit": "Own work",
-  "file": "img/schools/aiglon-college.jpg"
- },
+ "aiglon-college": null,
  "leysin-american-school": {
   "score": 10,
   "title": "File:L03 438 »Leysin American Scool«, Grand Hotel Campus.jpg",
@@ -1633,17 +1543,7 @@
   "credit": "Own work",
   "file": "img/schools/leysin-american-school.jpg"
  },
- "tasis-the-american-school-in-switzerland": {
-  "score": 7,
-  "title": "File:Mino Caggiula at TASIS, 16 September 2024.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Mino_Caggiula_at_TASIS,_16_September_2024.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Mino_Caggiula_at_TASIS%2C_16_September_2024.jpg/1280px-Mino_Caggiula_at_TASIS%2C_16_September_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC0",
-  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "artist": "Actionbronson89",
-  "credit": "Own work",
-  "file": "img/schools/tasis-the-american-school-in-switzerland.jpg"
- },
+ "tasis-the-american-school-in-switzerland": null,
  "american-school-of-madrid": null,
  "international-college-spain": null,
  "king-s-college-the-british-school-of-madrid": null,
@@ -1785,17 +1685,7 @@
   "file": "img/schools/american-international-school-of-budapest.jpg"
  },
  "the-british-international-school-budapest": null,
- "stockholm-international-school": {
-  "score": 6,
-  "title": "File:Exterior of Norra Latin campus of Stockholm International School.png",
-  "page": "https://commons.wikimedia.org/wiki/File:Exterior_of_Norra_Latin_campus_of_Stockholm_International_School.png",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Exterior_of_Norra_Latin_campus_of_Stockholm_International_School.png/1280px-Exterior_of_Norra_Latin_campus_of_Stockholm_International_School.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "Advancement Team",
-  "credit": "Own work",
-  "file": "img/schools/stockholm-international-school.jpg"
- },
+ "stockholm-international-school": null,
  "international-school-of-the-stockholm-region": null,
  "copenhagen-international-school": {
   "score": 6,
@@ -1822,17 +1712,7 @@
  "international-grammar-school": null,
  "redlands-sydney-church-of-england-coeducational-grammar-school": null,
  "cranbrook-school": null,
- "mlc-school": {
-  "score": 7,
-  "title": "File:MLC School, Burwood, Sydney.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:MLC_School,_Burwood,_Sydney.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/MLC_School%2C_Burwood%2C_Sydney.jpg/1280px-MLC_School%2C_Burwood%2C_Sydney.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC0",
-  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
-  "artist": "Astuartwatt",
-  "credit": "Own work",
-  "file": "img/schools/mlc-school.jpg"
- },
+ "mlc-school": null,
  "trinity-grammar-school": {
   "score": 10,
   "title": "File:Marles Playing Fields Trinity Grammar School.png",
@@ -1986,17 +1866,7 @@
   "credit": "Own work",
   "file": "img/schools/phillips-academy-andover.jpg"
  },
- "choate-rosemary-hall": {
-  "score": 13,
-  "title": "File:Andrew Mellon Library - Choate Rosemary Hall.JPG",
-  "page": "https://commons.wikimedia.org/wiki/File:Andrew_Mellon_Library_-_Choate_Rosemary_Hall.JPG",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Andrew_Mellon_Library_-_Choate_Rosemary_Hall.JPG/1280px-Andrew_Mellon_Library_-_Choate_Rosemary_Hall.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "Public domain",
-  "license_url": "",
-  "artist": "Daderot",
-  "credit": "Own work",
-  "file": "img/schools/choate-rosemary-hall.jpg"
- },
+ "choate-rosemary-hall": null,
  "deerfield-academy": {
   "score": 6,
   "title": "File:Main School Building, Deerfield Academy, Deerfield MA.jpg",
@@ -2022,17 +1892,7 @@
  "the-lawrenceville-school": null,
  "st-paul-s-school": null,
  "groton-school": null,
- "milton-academy": {
-  "score": 4,
-  "title": "File:Milton College Historic District Milton Wisconsin.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Milton_College_Historic_District_Milton_Wisconsin.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Milton_College_Historic_District_Milton_Wisconsin.jpg/1280px-Milton_College_Historic_District_Milton_Wisconsin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "artist": "Royalbroil",
-  "credit": "Own work",
-  "file": "img/schools/milton-academy.jpg"
- },
+ "milton-academy": null,
  "the-taft-school": null,
  "the-loomis-chaffee-school": {
   "score": 11,
@@ -2506,17 +2366,7 @@
  "chiang-mai-international-school": null,
  "lanna-international-school": null,
  "british-international-school-phuket": null,
- "uwc-thailand": {
-  "score": 10,
-  "title": "File:UWC Thailand campus.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:UWC_Thailand_campus.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a8/UWC_Thailand_campus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "UWC Thailand communications team",
-  "credit": "uwcthailand.ac.th",
-  "file": "img/schools/uwc-thailand.jpg"
- },
+ "uwc-thailand": null,
  "headstart-international-school": null,
  "regents-international-school-bangkok": null,
  "regents-international-school-pattaya": null,
@@ -2660,17 +2510,7 @@
  "canggu-community-school": null,
  "bali-island-school": null,
  "australian-independent-school-bali": null,
- "surabaya-intercultural-school": {
-  "score": 10,
-  "title": "File:Surabaya Intercultural School playground 2016.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Surabaya_Intercultural_School_playground_2016.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Surabaya_Intercultural_School_playground_2016.jpg/1280px-Surabaya_Intercultural_School_playground_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "Lasthib",
-  "credit": "Own work",
-  "file": "img/schools/surabaya-intercultural-school.jpg"
- },
+ "surabaya-intercultural-school": null,
  "sekolah-ciputra-surabaya": null,
  "international-school-manila": null,
  "brent-international-school-manila": null,

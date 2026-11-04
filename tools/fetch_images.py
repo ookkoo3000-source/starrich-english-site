@@ -7,13 +7,13 @@ python tools/fetch_images.py [--missing] [--limit N] [slug ...]
 """
 import os, sys, re, json, time, glob, importlib, urllib.request, urllib.parse
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, os.path.join(ROOT, "data"))
+sys.path.insert(0, os.path.join(ROOT, "data")); sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "data", "images.json")
 IMG_DIR = os.path.join(ROOT, "img", "schools")
 UA = "IntlSchoolTutorSite/0.1 (contact: ookkoo12@naver.com) python-urllib"
 API = "https://commons.wikimedia.org/w/api.php"
 STOP = {"international", "school", "of", "the", "in", "college", "academy", "campus", "and"}
-BAD = re.compile(r"logo|map|seal|crest|emblem|flag|\.svg|\.pdf|\.gif|us navy|u\.s\. navy|army|usace|air force|marine|badge|diagram|chart", re.I)
+BAD = re.compile(r"logo|map|seal|crest|emblem|flag|\.svg|\.pdf|\.gif|us navy|u\.s\. navy|army|usace|air force|marine|badge|diagram|chart|student|teacher|principal|ambassador|graduat|class of|visit|cheer|choir|parade|cadet|concert|basketball|football|soccer|rugby|dance|jersey|museum|portrait|\(talk\)|unveil|band|team|ceremony|celebrat|homecoming|1[89]\d\d", re.I)
 ALLOWED = re.compile(r"^(cc0|public domain|pd|cc by(-sa)?( \d\.\d)?)", re.I)
 
 
@@ -114,6 +114,17 @@ def main():
             path = os.path.join(IMG_DIR, s["slug"] + ".jpg")
             try:
                 download(c["thumb"], path)
+                try:
+                    from face_check import faces_in
+                    nf = faces_in(path)
+                except Exception:
+                    nf = 0
+                if nf:
+                    os.remove(path)
+                    data[s["slug"]] = None
+                    print(f"   제외(얼굴 {nf}) {c['title'][:60]}")
+                    json.dump(data, open(OUT, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+                    continue
                 c["file"] = f"img/schools/{s['slug']}.jpg"
                 data[s["slug"]] = c
                 print(f"   OK {c['license']} | {c['artist']} | {c['title'][:60]}")
