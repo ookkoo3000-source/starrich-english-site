@@ -47,3 +47,6 @@ python build.py
 
 ## 실시간 상담(채널톡)
 - build.py CHANNEL_KEY(채널톡 플러그인 키). 헤더·플로팅 버튼·모바일 바의 "실시간 상담하기"가 ChannelIO showMessenger 호출, 기본 런처는 숨김(hideChannelButtonOnBoot)
+
+## 파비콘
+- `python tools/make_favicon.py` → img/favicon.svg·favicon.ico·favicon-32.png·apple-touch-icon.png·favicon-512.png (딥그린 바탕 브라스 별). 로고 확정 시 이 스크립트만 바꿔 재생성
