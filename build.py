@@ -122,6 +122,8 @@ def head(title, desc, path, rel, og=None):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <meta name="naver-site-verification" content="045ffaffc914b769fd4ab255c91a6f027f11fb38" />
+<meta name="google-site-verification" content="lP-1pQd7AGs4XPVGMoEobJ4YuuJcQJ-7oEpnq_Jx-iQ" />
+<meta name="google-site-verification" content="zf_2UYRhfkhlS2WU-rOXMoIZvEmeivqqsPSfX-OIQLU" />
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{esc(title)}">
