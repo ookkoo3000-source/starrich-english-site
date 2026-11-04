@@ -44,3 +44,6 @@ python build.py
 ## 인물 사진 금지 (2026-11-04)
 - 사람 얼굴·인물이 보이는 사진은 쓰지 않는다(초상권). `tools/face_check.py`(OpenCV Haar)로 검사, `--remove`로 일괄 제거. fetch_images.py는 다운로드 직후 얼굴 검사해 자동 제외
 - 공용 사진이 없는 학교는 `tools/make_cards.py`가 img/cards/<slug>.jpg(학교명·영문명·도시·교육과정 카드) 생성 → 칼럼 상단·og:image에 자동 사용. 학교 추가 후엔 make_cards.py 재실행
+
+## 실시간 상담(채널톡)
+- build.py CHANNEL_KEY(채널톡 플러그인 키). 헤더·플로팅 버튼·모바일 바의 "실시간 상담하기"가 ChannelIO showMessenger 호출, 기본 런처는 숨김(hideChannelButtonOnBoot)

@@ -17,6 +17,7 @@ PHONE_DISPLAY = "010-3131-5305"
 PHONE_TEL = "01031315305"
 KAKAO = "https://open.kakao.com/o/sX9no5Ki"
 LEAD_EMAIL = "ookkoo12@naver.com"
+CHANNEL_KEY = "35873858-3bd8-4943-a38a-cb837a0eedfb"   # 채널톡 플러그인 키 (실시간 상담하기)
 TODAY = datetime.date.today().isoformat()
 GRADES = ["초등(G1~5)", "G6", "G7", "G8", "G9 / Year 10", "G10 / Year 11", "G11 / Year 12", "G12 / Year 13", "입학 준비 중"]
 
@@ -172,6 +173,7 @@ def header(rel):
     <a href="{rel}index.html#faq">자주 묻는 질문</a>
   </nav>
   <div class="top-cta">
+    <button type="button" class="btn btn-p ch-open">실시간 상담하기</button>
     <a class="btn kakao" href="{KAKAO}" target="_blank" rel="noopener">카톡 상담</a>
     <a class="btn btn-d" href="{rel}index.html#contact">무료 상담 신청</a>
   </div>
@@ -196,9 +198,15 @@ def footer(rel, countries):
   <div class="copy">© {datetime.date.today().year} {BRAND}. 학교명·소재지는 공개 정보 기준이며, 교육과정·입학 전형은 각 학교 공식 홈페이지에서 확인한 내용만 출처·확인일과 함께 표기합니다. 학교와의 제휴·협약은 없습니다.</div>
 </div></footer>
 <div class="m-bar">
-  <a class="btn kakao" href="{KAKAO}" target="_blank" rel="noopener">카톡 상담</a>
+  <button type="button" class="btn btn-p ch-open">실시간 상담하기</button>
   <a class="btn btn-d" href="{rel}index.html#contact">무료 상담 신청</a>
 </div>
+<button type="button" class="ch-cta ch-open" aria-label="실시간 상담하기"><span class="ch-ic">💬</span><span class="ch-txt">실시간 상담하기</span></button>
+<script>
+(function(){{var w=window;if(w.ChannelIO){{return;}}var ch=function(){{ch.c(arguments);}};ch.q=[];ch.c=function(args){{ch.q.push(args);}};w.ChannelIO=ch;function l(){{if(w.ChannelIOInitialized){{return;}}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x&&x.parentNode){{x.parentNode.insertBefore(s,x);}}else{{document.head.appendChild(s);}}}}if(document.readyState==="complete"){{l();}}else{{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}}}})();
+ChannelIO('boot', {{ "pluginKey": "{CHANNEL_KEY}", "hideChannelButtonOnBoot": true }});
+document.querySelectorAll('.ch-open').forEach(function(b){{ b.addEventListener('click', function(){{ ChannelIO('showMessenger'); }}); }});
+</script>
 <script>
 document.querySelectorAll('.tabs button').forEach(function(b){{
   b.addEventListener('click',function(){{
