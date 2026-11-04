@@ -121,6 +121,7 @@ def head(title, desc, path, rel, og=None):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
+<meta name="naver-site-verification" content="045ffaffc914b769fd4ab255c91a6f027f11fb38" />
 <link rel="canonical" href="{canonical}">
 <meta property="og:type" content="website">
 <meta property="og:title" content="{esc(title)}">
