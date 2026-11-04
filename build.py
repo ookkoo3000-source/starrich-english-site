@@ -106,13 +106,14 @@ def figure_html(s, rel, style=""):
   <figcaption>사진 출처: <a href="{esc(v['page'])}" target="_blank" rel="noopener">Wikimedia Commons</a> · {artist} · {lic}</figcaption>
 </figure>"""
 
-def og_image_tag(s, rel):
-    v = school_image(s)
-    return f'<meta property="og:image" content="{DOMAIN}/{v["file"]}">' if v else ""
+def og_image_url(s):
+    v = school_image(s) if s else None
+    return f"{DOMAIN}/{v['file']}" if v else None
 
 # ---------------- html pieces ----------------
-def head(title, desc, path, rel):
+def head(title, desc, path, rel, og=None):
     canonical = f"{DOMAIN}/{path}" if path else f"{DOMAIN}/"
+    og = og or f"{DOMAIN}/img/og-default.jpg"
     return f"""<!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -126,6 +127,11 @@ def head(title, desc, path, rel):
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:site_name" content="{BRAND}">
+<meta property="og:image" content="{og}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{og}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
@@ -515,7 +521,7 @@ def build_school(s, all_rows, countries, city_pages, posts=()):
     facts = "".join(f"<span>{f}</span>" for f in [s["country"] + " · " + s["city"], curr_names] + ([s["note"]] if s["note"] else []))
     title = f"{s['name']} 과외 | {curr_names if s['curricula'] else s['city'] + ' 국제학교'} 1:1 화상과외 {BRAND}"
     desc = f"{s['city']} {s['name']}({s['name_en']}) 학생을 위한 1:1 화상과외 안내. {curr_names} 기준 수학·영어·과학·입학 준비, 현지 시간대 맞춤, 무료 상담 신청."
-    body = head(title, desc, f"school/{s['slug']}.html", rel).replace("</head>", og_image_tag(s, rel) + "\n</head>")
+    body = head(title, desc, f"school/{s['slug']}.html", rel, og=og_image_url(s))
     body += header(rel)
     body += f"""
 <section class="page-hero"><div class="wrap">
@@ -647,8 +653,8 @@ def build_post(p, posts, countries, city_pages):
     ld = {"@context": "https://schema.org", "@type": "Article", "headline": p["title"], "description": p["summary"], "datePublished": p["date"], "dateModified": p["date"],
           "author": {"@type": "Organization", "name": BRAND}, "publisher": {"@type": "Organization", "name": BRAND}, "mainEntityOfPage": f"{DOMAIN}/column/{p['slug']}.html"}
     import json as _json
-    body = head(f"{p['title']} | {BRAND}", p["summary"], f"column/{p['slug']}.html", rel)
-    body = body.replace("</head>", f'<script type="application/ld+json">{_json.dumps(ld, ensure_ascii=False)}</script>\n' + (og_image_tag(s, rel) if s else "") + '\n</head>')
+    body = head(f"{p['title']} | {BRAND}", p["summary"], f"column/{p['slug']}.html", rel, og=og_image_url(s))
+    body = body.replace("</head>", f'<script type="application/ld+json">{_json.dumps(ld, ensure_ascii=False)}</script>\n</head>')
     body += header(rel)
     body += f"""
 <section class="page-hero"><div class="wrap">

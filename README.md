@@ -35,3 +35,8 @@ python build.py
 - 빌드가 학교 페이지·칼럼·학교 카드에 사진 + 캡션(촬영자·라이선스 링크·원본 링크·"학교 제공 아님, 문제 시 삭제") 자동 삽입, og:image도 설정
 - 사진이 없는 학교는 사진 없이 그대로. 잘못 매칭된 사진은 images.json에서 해당 slug 값을 null로 바꾸고 jpg 삭제 후 재빌드
 - 특정 학교만 다시: `python tools/fetch_images.py <slug> ...`
+
+## 링크 미리보기 이미지
+- `python tools/make_og.py` → img/og-default.jpg (1200x630). 브랜드명·도메인·학교 수를 build.py와 데이터에서 읽음. 브랜드 바꾸면 다시 실행
+- 모든 페이지 og:image 기본값. 학교 사진이 있는 학교·칼럼 페이지는 그 사진이 og:image
+- 네이버 블로그 링크 삽입 시 미리보기가 안 뜨면 URL 뒤에 `?v=2` 같은 쿼리를 붙이면 재수집됨(네이버 URL 단위 캐시)
