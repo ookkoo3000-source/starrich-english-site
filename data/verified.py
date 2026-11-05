@@ -125,6 +125,20 @@ EXTRA = [
      "quote": "based on the National Curriculum for England / aged 3 to 18 years old / examination success a significant element in Years 10-13 / Year 12 - 13"},
     {"match": ("Yongsan International School", "대한민국"), "source": "https://www.yisseoul.org/", "checked": "2026-11-04",
      "quote": "Our accredited K-12 instructional program is academically rigorous"},
+    {"match": ("Dulwich College Seoul", "대한민국"), "source": "https://seoul.dulwich.org/", "checked": "2026-11-05",
+     "quote": "Top IB Diploma School / for students aged 3-18 / Senior School: Ages 11-18"},
+    {"match": ("Shanghai Community International School", "중국"), "source": "https://www.scis-china.org/", "checked": "2026-11-05",
+     "quote": "SCIS is one of the first international schools in Shanghai to become fully authorized as an IB Continuum World School / From nursery and preschool, all the way through grade 12"},
+    {"match": ("German Swiss International School", "홍콩"), "source": "https://www.gsis.edu.hk/", "checked": "2026-11-05",
+     "quote": "leading to the IGCSE examinations and then on to the world-renowned International Baccalaureate (IB) Diploma. / English Stream Year 7-13 / German International Abitur (DIA) Diploma"},
+    {"match": ("Seisen", "일본"), "source": "https://www.seisen.com/", "checked": "2026-11-05",
+     "quote": "A Catholic Kindergarten to Grade 12 IB international school in Tokyo / First girls school in Asia to offer the International Baccalaureate Diploma Program."},
+    {"match": ("Singapore American School", "싱가포르"), "source": "https://www.sas.edu.sg/", "checked": "2026-11-05",
+     "quote": "Students excel through 25+ AP courses, AP Capstone, and unique Catalyst/Quest programs. / Our high school offers an exemplary American education with personalized academic pathways."},
+    {"match": ("United World College of South East Asia", "싱가포르"), "source": "https://www.uwcsea.edu.sg/", "checked": "2026-11-05",
+     "quote": "A K–12 academic curriculum shaped by our mission / High School (G9-12) / IB Diploma Results / Dover Campus / East Campus"},
+    {"match": ("Chinese International School", "홍콩"), "source": "https://www.cis.edu.hk/", "checked": "2026-11-05",
+     "quote": "CIS was the first bilingual, intercultural school of its kind in Hong Kong / develop strong skills in English and Chinese (Mandarin) / Reception - Year 6, Year 7-13"},
 ]
 
 
