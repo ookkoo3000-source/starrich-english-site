@@ -104,7 +104,7 @@ def figure_html(s, rel, style=""):
     artist = esc(v["artist"]) if v.get("artist") else "작자 미상"
     return f"""<figure class="school-photo" style="{style}">
   <img src="{rel}{v['file']}" alt="{esc(s['name'])} ({esc(s['name_en'])})" loading="lazy">
-  <figcaption>사진 출처: <a href="{esc(v['page'])}" target="_blank" rel="noopener">Wikimedia Commons</a> · {artist} · {lic}</figcaption>
+  <figcaption>사진 출처: <a href="{esc(v['page'])}" target="_blank" rel="noopener">Wikimedia Commons</a> · {artist} · {lic}{' · 일부 자름' if v.get('modified') else ''}</figcaption>
 </figure>"""
 
 def school_card_file(s):
