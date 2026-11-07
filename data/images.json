@@ -211,7 +211,8 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "artist": "MomodaniSakura",
   "credit": "Own work",
-  "file": "img/schools/yk-pao-school.jpg"
+  "file": "img/schools/yk-pao-school.jpg",
+  "modified": true
  },
  "hong-qiao-international-school": null,
  "smic-private-school-international-division": null,
@@ -225,7 +226,8 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "artist": "N509FZ",
   "credit": "Own work",
-  "file": "img/schools/western-academy-of-beijing.jpg"
+  "file": "img/schools/western-academy-of-beijing.jpg",
+  "modified": true
  },
  "beijing-city-international-school": {
   "score": 8,
@@ -595,7 +597,8 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "artist": "Prosperity Horizons",
   "credit": "Own work",
-  "file": "img/schools/yew-chung-international-school-of-hong-kong.jpg"
+  "file": "img/schools/yew-chung-international-school-of-hong-kong.jpg",
+  "modified": true
  },
  "victoria-shanghai-academy": {
   "score": 8,
@@ -2065,7 +2068,8 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "artist": "S5A-0043",
   "credit": "Own work",
-  "file": "img/schools/stamford-american-international-school.jpg"
+  "file": "img/schools/stamford-american-international-school.jpg",
+  "modified": true
  },
  "overseas-family-school": {
   "score": 2,
