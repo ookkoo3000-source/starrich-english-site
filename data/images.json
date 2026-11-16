@@ -501,17 +501,7 @@
   "file": "img/schools/german-swiss-international-school.jpg"
  },
  "king-george-v-school": null,
- "island-school": {
-  "score": 6,
-  "title": "File:Island School.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Island_School.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Island_School.jpg/1280px-Island_School.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "Exploringlife",
-  "credit": "Own work",
-  "file": "img/schools/island-school.jpg"
- },
+ "island-school": null,
  "south-island-school": {
   "score": 10,
   "title": "File:South Island School.jpg",
@@ -534,17 +524,7 @@
   "credit": "Own work",
   "file": "img/schools/west-island-school.jpg"
  },
- "sha-tin-college": {
-  "score": 8,
-  "title": "File:Sha Tin College 3rd Block.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Sha_Tin_College_3rd_Block.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Sha_Tin_College_3rd_Block.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "license": "CC BY-SA 3.0",
-  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
-  "artist": "No machine-readable author provided. Typhoonchaser assumed (based on copyright c",
-  "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
-  "file": "img/schools/sha-tin-college.jpg"
- },
+ "sha-tin-college": null,
  "renaissance-college": {
   "score": 5,
   "title": "File:RenaissanceCollegeHK (cropped).jpg",
@@ -2070,7 +2050,8 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "artist": "Hendryc ong",
   "credit": "Own work",
-  "file": "img/schools/overseas-family-school.jpg"
+  "file": "img/schools/overseas-family-school.jpg",
+  "modified": true
  },
  "global-indian-international-school": {
   "score": 10,
@@ -2147,17 +2128,7 @@
  },
  "etonhouse-international-school-orchard": null,
  "nps-international-school": null,
- "the-international-school-of-kuala-lumpur": {
-  "score": 8,
-  "title": "File:ISKL's new school campus under construction in Ampang, Kuala Lumpur.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:ISKL%27s_new_school_campus_under_construction_in_Ampang,_Kuala_Lumpur.jpg",
-  "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/98/ISKL%27s_new_school_campus_under_construction_in_Ampang%2C_Kuala_Lumpur.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "JaneBecker1974",
-  "credit": "Own work",
-  "file": "img/schools/the-international-school-of-kuala-lumpur.jpg"
- },
+ "the-international-school-of-kuala-lumpur": null,
  "the-alice-smith-school": null,
  "garden-international-school": {
   "score": 6,
@@ -2270,7 +2241,8 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
   "artist": "Masvingochick",
   "credit": "Own work",
-  "file": "img/schools/kis-international-school.jpg"
+  "file": "img/schools/kis-international-school.jpg",
+  "modified": true
  },
  "wells-international-school": null,
  "bangkok-international-preparatory-and-secondary-school": null,
