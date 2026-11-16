@@ -500,17 +500,7 @@
   "credit": "Own work",
   "file": "img/schools/german-swiss-international-school.jpg"
  },
- "king-george-v-school": {
-  "score": 10,
-  "title": "File:King George V school clock tower1 (3388002052).jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:King_George_V_school_clock_tower1_(3388002052).jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/King_George_V_school_clock_tower1_%283388002052%29.jpg/1280px-King_George_V_school_clock_tower1_%283388002052%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY 2.0",
-  "license_url": "https://creativecommons.org/licenses/by/2.0",
-  "artist": "Tony Hisgett from Birmingham, UK",
-  "credit": "King George V school clock tower1 Uploaded by tm",
-  "file": "img/schools/king-george-v-school.jpg"
- },
+ "king-george-v-school": null,
  "island-school": {
   "score": 6,
   "title": "File:Island School.jpg",
