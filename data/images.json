@@ -502,28 +502,8 @@
  },
  "king-george-v-school": null,
  "island-school": null,
- "south-island-school": {
-  "score": 10,
-  "title": "File:South Island School.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:South_Island_School.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/South_Island_School.jpg/1280px-South_Island_School.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "artist": "Ceeseven",
-  "credit": "Own work",
-  "file": "img/schools/south-island-school.jpg"
- },
- "west-island-school": {
-  "score": 10,
-  "title": "File:Sandy Bay Road towards West Island School.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Sandy_Bay_Road_towards_West_Island_School.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Sandy_Bay_Road_towards_West_Island_School.jpg/1280px-Sandy_Bay_Road_towards_West_Island_School.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "Ceeseven",
-  "credit": "Own work",
-  "file": "img/schools/west-island-school.jpg"
- },
+ "south-island-school": null,
+ "west-island-school": null,
  "sha-tin-college": null,
  "renaissance-college": {
   "score": 5,
@@ -2362,17 +2342,7 @@
  "saigon-south-international-school": null,
  "british-international-school-ho-chi-minh-city": null,
  "australian-international-school-saigon": null,
- "renaissance-international-school-saigon": {
-  "score": 7,
-  "title": "File:Renaissance School View - Jan 2020.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Renaissance_School_View_-_Jan_2020.jpg",
-  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Renaissance_School_View_-_Jan_2020.jpg/1280px-Renaissance_School_View_-_Jan_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "artist": "Huongnnq",
-  "credit": "Own work",
-  "file": "img/schools/renaissance-international-school-saigon.jpg"
- },
+ "renaissance-international-school-saigon": null,
  "european-international-school-ho-chi-minh-city": {
   "score": 9,
   "title": "File:EUROPEAN International School Front Entrance.jpg",

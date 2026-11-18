@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>예청 국제학교 상하이 IB 과학 IA, 데이터 처리와 불확실도에서 잃는 점수 | 인터튜터</title>
+<meta name="description" content="예청 국제학교 상하이(YCIS) IB DP 과학 학생이 IA에서 측정 불확실도·유효숫자·평균과 표준편차, 오차 막대와 추세선, 백분율 불확실도 전파, 그래프 형식, 스프레드시트 활용을 어떻게 처리해야 Data analysis·Conclusion·Evaluation 기준에서 점수를 지키는지 예시 계산과 함께 정리했습니다.">
+<meta name="naver-site-verification" content="045ffaffc914b769fd4ab255c91a6f027f11fb38" />
+<meta name="google-site-verification" content="lP-1pQd7AGs4XPVGMoEobJ4YuuJcQJ-7oEpnq_Jx-iQ" />
+<meta name="google-site-verification" content="zf_2UYRhfkhlS2WU-rOXMoIZvEmeivqqsPSfX-OIQLU" />
+<meta name="google-site-verification" content="F2l3GbDAYwFdeoYKLSPTh9JV50QAHoO2OX8lsqydOxI" />
+<link rel="canonical" href="https://starrichenglish.co.kr/column/ycis-shanghai-ib-science-ia-data-uncertainty.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="예청 국제학교 상하이 IB 과학 IA, 데이터 처리와 불확실도에서 잃는 점수 | 인터튜터">
+<meta property="og:description" content="예청 국제학교 상하이(YCIS) IB DP 과학 학생이 IA에서 측정 불확실도·유효숫자·평균과 표준편차, 오차 막대와 추세선, 백분율 불확실도 전파, 그래프 형식, 스프레드시트 활용을 어떻게 처리해야 Data analysis·Conclusion·Evaluation 기준에서 점수를 지키는지 예시 계산과 함께 정리했습니다.">
+<meta property="og:url" content="https://starrichenglish.co.kr/column/ycis-shanghai-ib-science-ia-data-uncertainty.html">
+<meta property="og:site_name" content="인터튜터">
+<meta property="og:image" content="https://starrichenglish.co.kr/img/cards/yew-chung-international-school-of-shanghai.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://starrichenglish.co.kr/img/cards/yew-chung-international-school-of-shanghai.jpg">
+<link rel="icon" href="../img/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="../img/favicon.svg">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<meta name="theme-color" content="#123a2e">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<link rel="stylesheet" href="../css/style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "예청 국제학교 상하이 IB 과학 IA, 데이터 처리와 불확실도에서 잃는 점수", "description": "예청 국제학교 상하이(YCIS) IB DP 과학 학생이 IA에서 측정 불확실도·유효숫자·평균과 표준편차, 오차 막대와 추세선, 백분율 불확실도 전파, 그래프 형식, 스프레드시트 활용을 어떻게 처리해야 Data analysis·Conclusion·Evaluation 기준에서 점수를 지키는지 예시 계산과 함께 정리했습니다.", "datePublished": "2026-11-18", "dateModified": "2026-11-18", "author": {"@type": "Organization", "name": "인터튜터"}, "publisher": {"@type": "Organization", "name": "인터튜터"}, "mainEntityOfPage": "https://starrichenglish.co.kr/column/ycis-shanghai-ib-science-ia-data-uncertainty.html"}</script>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="../index.html">인터튜터<span>.</span></a>
+  <nav class="nav" id="nav">
+    <a href="../schools.html">학교 찾기</a>
+    <a href="../regions.html">국가·도시별</a>
+    <a href="../column.html">칼럼</a>
+    <a href="../index.html#subjects">과목·교육과정</a>
+    <a href="../index.html#how">진행 절차</a>
+    <a href="../index.html#faq">자주 묻는 질문</a>
+  </nav>
+  <div class="top-cta">
+    <button type="button" class="btn btn-p ch-open">실시간 상담하기</button>
+    <a class="btn kakao" href="https://open.kakao.com/o/sX9no5Ki" target="_blank" rel="noopener">카톡 상담</a>
+    <a class="btn btn-d" href="../index.html#contact">무료 상담 신청</a>
+  </div>
+  <button class="ham" aria-label="메뉴" onclick="document.getElementById('nav').classList.toggle('open')">☰</button>
+</div></header>
+<section class="page-hero"><div class="wrap">
+  <div class="crumb"><a href="../index.html">홈</a> › <a href="../column.html">칼럼</a> › <a href="../school/yew-chung-international-school-of-shanghai.html">예청 국제학교 상하이 (YCIS)</a></div>
+  <h1>예청 국제학교 상하이 IB 과학 IA, 데이터 처리와 불확실도에서 잃는 점수</h1>
+  <p>예청 국제학교 상하이(YCIS) IB DP 과학 학생이 IA에서 측정 불확실도·유효숫자·평균과 표준편차, 오차 막대와 추세선, 백분율 불확실도 전파, 그래프 형식, 스프레드시트 활용을 어떻게 처리해야 Data analysis·Conclusion·Evaluation 기준에서 점수를 지키는지 예시 계산과 함께 정리했습니다.</p>
+  <div class="facts"><span>2026-11-18</span><span>읽는 데 약 14분</span><span>예청 국제학교 상하이 (YCIS)</span></div>
+</div></section>
+<section><div class="wrap" style="max-width:820px">
+  <figure class="school-photo" style="margin:0 0 22px">
+  <img src="../img/cards/yew-chung-international-school-of-shanghai.jpg" alt="예청 국제학교 상하이 (YCIS) (Yew Chung International School of Shanghai)" loading="lazy">
+</figure>
+  <article class="post"><p class="lead">상하이 예청 국제학교(YCIS) Year 12~13 자녀가 IB DP 과학 IA(내부 평가) 초안을 받아 들고 "실험은 잘 됐는데 데이터 처리에서 점수를 많이 잃었다"는 피드백을 받아 오는 경우가 많습니다. 결론부터 말씀드리면 IB 과학 IA에서 데이터 처리로 잃는 점수의 대부분은 어려운 통계를 몰라서가 아니라, 측정 불확실도를 기록하지 않거나, 유효숫자를 측정 정밀도와 맞추지 않거나, 불확실도를 계산 결과까지 전파하지 않거나, 그래프에 오차 막대·축 이름·단위를 빠뜨리거나, 결론에서 그 불확실도를 언급하지 않는 다섯 가지 "형식적이지만 치명적인" 누락에서 나옵니다. 이 다섯 가지는 모두 규칙이 정해져 있어서 한 번 제대로 익히면 어느 과학 과목의 IA에서도 그대로 쓸 수 있습니다. 이 글은 그 규칙을 처음부터 끝까지, 예시 계산 하나와 함께 정리한 것입니다.</p>
+<p>학교 홈페이지(2026-11-18 확인)는 IGCSE와 IB 디플로마 프로그램을 운영하며, 만 2세부터 18세까지(K2부터 Year 13까지)의 학생을 교육한다고 안내합니다.</p>
+<blockquote>IGCSE and the International Baccalaureate Diploma Programme / aged 2 - 18 years old (K2 to Year 13)</blockquote>
+<p>학교 안내에서 확인되는 사실은 여기까지입니다. 어떤 과학 과목이 IB DP에서 개설되는지, IA 일정과 교사 지도 방식이 어떠한지는 학교가 정하는 사항이므로 과학 교사와 IB 코디네이터에게 확인하셔야 합니다. 아래는 IB가 공개한 과학 과목 가이드와 데이터 처리의 일반 규칙을 바탕으로 한 설명입니다.</p>
+
+<h2>IA 채점 기준에서 데이터 처리가 차지하는 자리</h2>
+<p>IB 공식 가이드 기준으로 2025년 첫 평가부터 적용되는 DP 과학 과목(생물, 화학, 물리 등)의 IA는 "과학적 탐구(scientific investigation)" 한 편으로, 최종 점수의 20%를 차지하며 네 개의 기준으로 채점됩니다. 연구 설계(Research design), 데이터 분석(Data analysis), 결론(Conclusion), 평가(Evaluation)이 그것이고 각 기준은 동일한 배점으로 구성됩니다. 데이터 처리와 불확실도는 이름상 "데이터 분석" 기준에 속하지만, 실제로는 네 기준 모두에 걸쳐 있습니다.</p>
+<p>연구 설계 기준은 측정 도구와 그 정밀도, 반복 횟수, 통제변인을 어떻게 다룰지가 방법에 명시되어 있는지를 봅니다. 즉 "무엇을 몇 번, 어떤 정밀도의 도구로 측정할 것인가"가 설계 단계에서 이미 데이터 처리의 질을 결정합니다. 데이터 분석 기준은 원자료(raw data)가 불확실도와 함께 적절히 기록되었는지, 처리 과정이 정확하고 불확실도가 전파되었는지, 그래프가 적절한지를 봅니다. 결론 기준은 처리된 데이터와 불확실도를 근거로 연구 질문에 답하는지, 그 결론이 과학적 맥락(문헌값, 이론)과 비교되는지를 봅니다. 평가 기준은 방법의 약점과 한계를 데이터의 불확실도와 연결해 구체적으로 논의하고 현실적인 개선안을 제시하는지를 봅니다. 그러므로 "불확실도를 적었는가"는 데이터 분석 기준의 한 줄이 아니라, 결론의 신뢰도를 말하고 평가에서 약점을 짚을 때 쓰는 재료입니다. 불확실도 없이 쓴 결론과 평가는 근거가 없는 주장이 되어 세 기준에서 동시에 점수를 잃습니다.</p>
+<p>학부모님이 자녀의 IA 초안을 보실 때 내용을 몰라도 확인할 수 있는 것이 있습니다. 원자료 표의 열 제목마다 "단위"와 "±불확실도"가 있는가, 처리된 값에도 불확실도가 붙어 있는가, 그래프에 오차 막대가 있는가, 결론 단락에 "uncertainty" 또는 "error"라는 단어가 나오는가, 평가 단락이 그 불확실도의 가장 큰 원인을 지목하는가. 이 다섯 가지가 모두 "예"라면 형식적 누락은 없는 것이고, 하나라도 "아니오"라면 바로 그곳이 점수가 새는 지점입니다.</p>
+
+<h2>측정 불확실도와 유효숫자의 기본 규칙</h2>
+<p>측정 불확실도(uncertainty)는 "이 측정값이 참값으로부터 얼마나 떨어져 있을 수 있는가"를 나타내는 범위이며, 모든 측정값은 값 ± 불확실도 (단위)의 형태로 기록합니다. 일반적으로 쓰이는 규칙은 다음과 같습니다. 눈금이 있는 아날로그 도구(자, 뷰렛, 온도계 등)는 가장 작은 눈금의 절반을 불확실도로 잡는 것이 관례이고, 디지털 도구(전자저울, 디지털 온도계 등)는 표시되는 마지막 자리 하나를 불확실도로 잡는 것이 관례입니다. 다만 도구 제조사가 정밀도를 명시한 경우 그 값을 우선하며, 사람의 반응 시간이 개입하는 측정(스톱워치)은 도구 정밀도보다 훨씬 큰 불확실도(일반적으로 0.2~0.3초 수준)를 잡고 그 이유를 적어야 합니다. 어느 규칙을 썼든 보고서에 한 번 명시하는 것이 중요합니다.</p>
+<p>유효숫자(significant figures)는 불확실도와 짝을 이룹니다. 가장 많이 틀리는 규칙은 두 가지입니다. 첫째, 측정값의 마지막 자리는 불확실도의 자리와 같아야 합니다. 전자저울이 0.01 g까지 표시한다면 45.20 g으로 적어야 하고, 뒤의 0을 지워 45.2 g으로 적으면 정밀도를 스스로 버린 것입니다. 둘째, 계산 결과는 입력값 중 가장 적은 유효숫자를 넘겨 쓰지 않으며, 최종 보고에서는 불확실도를 유효숫자 한 자리(경우에 따라 두 자리)로 반올림한 뒤 값을 그 자리에 맞춥니다. 계산기나 스프레드시트가 보여 주는 2.893472…를 그대로 옮기는 것은 데이터 분석 기준에서 자주 지적되는 실수입니다.</p>
+<p>반복 측정의 처리도 규칙이 있습니다. 같은 조건에서 여러 번(일반적으로 최소 3회, 가능하면 5회) 측정하고 평균을 구하는데, 이때 평균의 불확실도는 두 가지 방식 중 하나로 잡는 것이 일반적입니다. 하나는 "최댓값과 최솟값 차이의 절반"을 불확실도로 쓰는 방식으로, 반복 횟수가 적을 때 널리 쓰이는 간단한 방법입니다. 다른 하나는 표준편차(standard deviation)를 구해 쓰는 방식으로, 반복 횟수가 충분하고 생물학처럼 개체 간 변이가 큰 데이터에서 선호됩니다. 둘 중 어느 쪽이든 "도구의 불확실도"와 "반복 측정의 퍼짐" 중 더 큰 쪽을 그 값의 불확실도로 채택하고 그 선택을 한 줄 설명하면 됩니다. 반복 측정을 했는데 평균만 적고 퍼짐을 적지 않는 것은 반복한 의미를 스스로 지우는 일입니다.</p>
+
+<h2>백분율 불확실도 전파의 일반 규칙과 예시 계산</h2>
+<p>측정값을 가지고 계산을 하면 불확실도도 함께 계산되어야 합니다. 이것을 불확실도 전파(propagation)라고 하며, IB 과학 가이드와 데이터 북릿에 안내되는 일반 규칙은 단순합니다. 덧셈·뺄셈을 하면 절대 불확실도를 더합니다. 곱셈·나눗셈을 하면 백분율(상대) 불확실도를 더합니다. 거듭제곱을 하면 백분율 불확실도에 지수를 곱합니다. 상수를 곱하면 절대 불확실도에도 같은 상수를 곱합니다. 이 네 줄이 전부이지만, 어느 단계에서 절대 불확실도를 쓰고 어느 단계에서 백분율로 바꾸는지를 헷갈려 계산 전체가 틀리는 경우가 많습니다.</p>
+<p>아래는 설명을 위해 구성한 <strong>예시</strong> 계산입니다. 실제 실험 데이터가 아닙니다.</p>
+<table>
+<tr><th>단계</th><th>계산(예시)</th><th>비고</th></tr>
+<tr><td>측정 1: 정육면체 금속의 질량</td><td>m = 45.20 ± 0.01 g</td><td>디지털 저울, 마지막 자리</td></tr>
+<tr><td>측정 2: 한 변의 길이</td><td>L = 2.50 ± 0.05 cm</td><td>mm 눈금 자, 눈금 절반 → 그러나 양 끝 읽기이므로 0.05 cm 채택</td></tr>
+<tr><td>백분율 불확실도</td><td>m: 0.01/45.20 × 100 ≈ 0.02 %  /  L: 0.05/2.50 × 100 = 2 %</td><td>백분율로 변환</td></tr>
+<tr><td>부피 V = L³</td><td>V = 15.625 cm³, 불확실도 = 3 × 2 % = 6 %</td><td>거듭제곱 → 지수를 곱함</td></tr>
+<tr><td>밀도 ρ = m / V</td><td>ρ = 45.20 / 15.625 = 2.8928 g/cm³, 불확실도 = 0.02 % + 6 % ≈ 6 %</td><td>나눗셈 → 백분율 합</td></tr>
+<tr><td>절대 불확실도로 환산</td><td>2.8928 × 0.06 ≈ 0.17 g/cm³</td><td>유효숫자 한 자리로 → 0.2</td></tr>
+<tr><td>최종 보고</td><td>ρ = 2.9 ± 0.2 g/cm³</td><td>값을 불확실도 자리에 맞춤</td></tr>
+</table>
+<p>이 예시에서 배울 점은 세 가지입니다. 첫째, 전체 불확실도의 거의 전부가 길이 측정(2 %가 세 번 곱해져 6 %)에서 나왔고 질량의 기여(0.02 %)는 무시할 수준입니다. 평가(Evaluation) 기준에서 "가장 큰 불확실도의 원인은 길이 측정이며, 버니어 캘리퍼스를 쓰면 백분율 불확실도를 크게 줄일 수 있다"고 쓰는 것이 바로 이 계산에서 나옵니다. 데이터 없이 "더 정밀한 도구를 쓰면 좋았을 것"이라고 쓰는 것과, 어느 측정이 몇 %를 기여했는지 수치로 지목하는 것은 평가 기준에서 전혀 다른 수준으로 채점됩니다. 둘째, 최종 보고는 2.8928이 아니라 2.9 ± 0.2입니다. 불확실도가 소수 첫째 자리이므로 값도 거기까지만 의미가 있습니다. 셋째, 결론에서 문헌값과 비교할 때 "문헌값이 2.9 ± 0.2의 범위 안에 들어오는가"로 판단하는 것이, 단순히 "오차율이 몇 %다"라고 쓰는 것보다 불확실도를 활용한 결론입니다.</p>
+
+<h2>그래프의 축·단위·제목·오차 막대·추세선에서 흔히 잃는 점수</h2>
+<p>IA의 그래프는 "예쁘게 그리는 것"이 아니라 "데이터와 불확실도를 시각적으로 주장하는 것"입니다. 채점자가 그래프에서 확인하는 요소는 정해져 있고, 하나씩 빠질 때마다 데이터 분석 기준의 수준이 내려갑니다. 자주 빠지는 순서대로 정리합니다.</p>
+<ul>
+<li><strong>축 이름과 단위</strong>: 두 축 모두 측정량의 이름과 단위를 "Temperature / °C" 또는 "Temperature (°C)"처럼 적어야 합니다. 스프레드시트 기본 설정은 열 이름("Column B")이나 단위 없는 변수명을 넣으므로 반드시 고쳐야 합니다.</li>
+<li><strong>제목 또는 캡션</strong>: 무엇과 무엇의 관계를 어떤 조건에서 보여 주는지 한 문장으로. "Graph 1"만 적는 것은 제목이 아닙니다.</li>
+<li><strong>독립변인은 가로축, 종속변인은 세로축</strong>: 기본이지만 생물 실험에서 특히 자주 뒤바뀝니다.</li>
+<li><strong>오차 막대(error bars)</strong>: 각 데이터 점에 그 점의 불확실도(처리된 값의 전파된 불확실도, 또는 반복 측정의 표준편차·범위)를 막대로 표시합니다. 스프레드시트의 "자동 오차 막대"나 "5 % 고정값"은 자녀의 데이터와 무관한 값이므로 쓰면 안 되고, 각 점마다 계산한 값을 "사용자 지정"으로 넣어야 합니다. 오차 막대가 너무 작아 보이지 않으면 그 사실을 캡션에 적습니다.</li>
+<li><strong>추세선(trendline)과 식</strong>: 점들을 직선으로 이어서는 안 되며, 이론적으로 기대되는 관계(선형·반비례·지수 등)에 맞는 추세선을 선택하고 그 식과 결정계수(R²)를 표시합니다. R²는 "맞는 정도"의 참고 지표이지 불확실도가 아니라는 점을 결론에서 구분해야 합니다.</li>
+<li><strong>최대·최소 기울기 선</strong>: 선형 관계에서 기울기가 결과(예를 들어 비열, 저항, 반응 속도 상수)가 될 때, 오차 막대의 양 끝을 지나는 가장 가파른 선과 가장 완만한 선을 함께 그려 기울기의 불확실도를 구하는 것이 일반적인 방법입니다. 이것이 물리·화학 IA에서 "불확실도를 그래프까지 전파했다"는 가장 확실한 증거가 됩니다.</li>
+<li><strong>원점과 축 범위</strong>: 이론상 원점을 지나야 하는 관계인데 추세선의 절편이 0이 아니라면, 그것은 체계적 오차의 증거이므로 평가에서 논의할 재료가 됩니다. 축 범위를 데이터에 맞게 조정해 점들이 그래프의 대부분을 차지하도록 합니다.</li>
+</ul>
+<p>그래프 하나를 완성한 뒤 위 일곱 항목을 체크리스트로 확인하는 데 5분이면 충분하고, 이 5분이 IA 전체에서 가장 수익률이 높은 시간입니다. 또 그래프는 본문에서 반드시 언급되어야 합니다. "Graph 1에서 기울기는 … ± …이며, 이는 …를 의미한다"처럼 본문이 그래프를 읽어 주지 않으면 그래프는 장식으로 간주됩니다.</p>
+
+<h2>스프레드시트를 제대로 쓰는 법</h2>
+<p>IA의 데이터 처리는 거의 모두 스프레드시트(Excel, Google Sheets, Numbers 등)로 이뤄지며, 스프레드시트를 "계산기"가 아니라 "증거가 남는 계산 노트"로 쓰는 학생이 점수를 지킵니다. 권장하는 구성은 다음과 같습니다. 첫 번째 시트에는 원자료(raw data)를 측정한 그대로, 단위와 불확실도를 열 제목에 포함해 입력합니다. 이 시트는 절대 덮어쓰지 않습니다. 두 번째 시트에는 처리 과정을 열 단위로 펼칩니다. 평균 열, 범위 또는 표준편차 열, 백분율 불확실도 열, 계산된 값 열, 전파된 불확실도 열의 순서로 두고, 각 열의 첫 셀에 쓴 수식을 보고서의 "샘플 계산(sample calculation)"으로 한 번 손으로 풀어 적습니다. IB 채점자는 모든 계산을 다시 하지 않지만, 하나의 샘플 계산이 올바른지는 반드시 확인하므로 샘플 계산이 빠지면 처리 전체의 신뢰를 잃습니다.</p>
+<p>스프레드시트에서 자주 생기는 오류도 알아 두셔야 합니다. 첫째, 표시 자릿수와 실제 자릿수의 혼동입니다. 셀 서식으로 소수 둘째 자리까지만 보이게 해도 내부 값은 그대로이므로 계산은 문제없지만, 보고서에 옮길 때는 유효숫자 규칙에 맞게 직접 반올림해야 합니다. 반대로 ROUND 함수로 중간값을 반올림하면 뒤 계산에 반올림 오차가 누적되므로 중간 단계는 반올림하지 않습니다. 둘째, 표준편차 함수의 선택입니다. 일반적으로 표본 표준편차(STDEV.S 또는 STDEV)를 쓰며, 모집단 표준편차(STDEV.P)와 구분해야 합니다. 셋째, 오차 막대 입력입니다. 앞서 말씀드린 대로 "사용자 지정"으로 각 점의 불확실도 열을 지정해야 하며, 양(+)과 음(−) 방향 모두 같은 열을 지정합니다. 넷째, 추세선 식의 유효숫자입니다. 스프레드시트가 보여 주는 기울기 0.0123456은 그대로 쓰지 않고, 최대·최소 기울기로 구한 불확실도에 맞춰 자릿수를 정합니다.</p>
+<p>마지막으로 파일 관리입니다. IA는 몇 달에 걸쳐 진행되므로 날짜별 사본을 남기고, 교사 피드백을 받은 뒤 수정한 내용을 기록해 두면 평가(Evaluation) 단락에서 "처음 처리 방식의 문제를 발견하고 어떻게 고쳤는가"를 쓸 재료가 됩니다. 스프레드시트 자체를 제출하지 않더라도 보고서의 표는 스프레드시트에서 그대로 옮겨 오므로, 스프레드시트 단계에서 열 제목(단위·불확실도)과 자릿수를 정리해 두면 보고서 작성 시간이 크게 줄어듭니다.</p>
+
+<h2>결론·평가 기준에서 데이터 처리가 반영되는 방식</h2>
+<p>데이터 처리를 완벽하게 해 놓고도 결론과 평가에서 그것을 쓰지 않아 점수를 잃는 경우가 의외로 많습니다. IB 가이드 기준으로 결론(Conclusion)은 "처리된 데이터와 그 불확실도에 근거하여 연구 질문에 답하고, 그 답을 과학적 맥락과 비교하며 정당화하는 것"입니다. 이것을 문장으로 옮기면 결론 단락에는 다음 네 요소가 들어가야 합니다. (1) 연구 질문에 대한 직접적 답(관계의 방향과 형태), (2) 그 답의 근거가 되는 처리된 값과 불확실도(기울기 … ± …, R² …, 오차 막대가 추세선을 포함하는가), (3) 문헌값이나 이론적 예측과의 비교(문헌값이 불확실도 범위 안에 들어오는가, 들어오지 않는다면 차이가 얼마나 되는가), (4) 데이터가 결론을 얼마나 강하게 지지하는지에 대한 판단(예를 들어 "오차 막대가 크고 점이 다섯 개뿐이므로 선형 관계는 지지되지만 비례 관계까지는 확정할 수 없다").</p>
+<p>평가(Evaluation)는 "방법의 약점과 한계를 지목하고, 그것이 데이터에 미친 영향을 논의하며, 현실적이고 구체적인 개선안을 제시하는 것"입니다. 여기서 데이터 처리가 결정적인 역할을 합니다. 좋은 평가는 "온도 조절이 어려웠다"처럼 일반적인 불평이 아니라, "길이 측정의 백분율 불확실도가 전체의 90% 이상을 차지했으므로 이것이 가장 큰 무작위 오차의 원인이며, 버니어 캘리퍼스(정밀도 0.01 cm)를 사용하면 부피의 백분율 불확실도를 약 1 %대로 줄일 수 있다"처럼 전파 계산에서 나온 숫자로 약점의 크기를 정하고 개선 효과를 추정합니다. 또 무작위 오차(random error: 오차 막대의 크기, 반복 측정의 퍼짐으로 드러남)와 체계적 오차(systematic error: 추세선의 절편이 0이 아님, 문헌값과의 일관된 치우침으로 드러남)를 구분하고, 각각에 맞는 개선안(무작위 오차는 반복 횟수와 도구 정밀도, 체계적 오차는 보정과 방법 변경)을 제시하는 것이 상위 수준의 특징입니다.</p>
+<p>자녀가 결론·평가 초안을 쓴 뒤 다음 세 질문을 스스로 해 보게 하시면 됩니다. "내 결론의 모든 문장에 숫자나 그래프 번호가 붙어 있는가", "내 평가에서 지목한 약점 중 가장 큰 것은 데이터 처리에서 가장 큰 불확실도를 낸 그 측정과 일치하는가", "내가 제안한 개선안을 실제로 그 학교 실험실에서 할 수 있는가". 세 질문에 모두 "예"라면 데이터 처리가 결론과 평가에 제대로 반영된 것입니다.</p>
+
+<h2>IGCSE 과학 실험 경험과의 연결</h2>
+<p>학교 안내에 따르면 YCIS 상하이는 IGCSE와 IB DP를 운영하므로, 많은 학생이 IGCSE 과학을 거쳐 IB DP 과학으로 올라옵니다. 이 연결을 알고 있으면 IB IA 준비를 Year 10~11부터 시작할 수 있습니다. Cambridge와 Pearson Edexcel의 IGCSE 과학 공식 요강 기준으로, IGCSE 과학에는 실험 기술을 평가하는 요소(실기 시험 또는 대체 실기 필기시험)가 있고, 여기서 다루는 것이 바로 측정 도구의 정밀한 읽기, 표 작성(단위·자릿수), 그래프 그리기(축·눈금·최적선), 결과의 이상값 판단, 실험의 개선안 제시입니다. 즉 IB IA의 데이터 처리 요소 대부분이 IGCSE에서 "간단한 형태로" 이미 등장합니다.</p>
+<p>차이는 깊이와 자율성입니다. IGCSE에서는 주어진 표에 값을 채우고 주어진 축에 그래프를 그리지만, IB IA에서는 표의 구조와 그래프의 종류를 스스로 정해야 하고, 불확실도를 기록하는 것을 넘어 전파하고 결론에 활용해야 합니다. IGCSE에서 "최적선(line of best fit)"을 그렸다면 IB에서는 "최적선 + 최대·최소 기울기 선"을 그리고, IGCSE에서 "이상값을 제외했다"고 적었다면 IB에서는 "왜 이상값인지, 제외가 결과의 불확실도에 어떤 영향을 주는지"를 써야 합니다. IGCSE 시기에 다음 세 가지 습관을 들여 두면 IB IA에서 큰 차이가 납니다. 첫째, 모든 측정값에 단위와 도구 정밀도를 함께 적는 습관. 둘째, 그래프를 그릴 때 축 이름·단위·제목을 "시키지 않아도" 적는 습관. 셋째, 실험 개선안을 "더 정확하게 하면 좋겠다"가 아니라 "어느 측정의 어떤 도구를 무엇으로 바꾸면 어떤 오차가 줄어든다"로 쓰는 습관입니다.</p>
+<p>반대로 IGCSE에서 IB로 올라올 때 버려야 할 습관도 있습니다. IGCSE 대체 실기 시험에서는 정해진 답의 형식을 빠르게 맞추는 것이 중요했지만, IB IA는 몇 달에 걸친 개인 탐구이므로 "빨리 끝내는 것"보다 "반복 측정을 충분히 하고 불확실도를 끝까지 추적하는 것"이 중요합니다. 또 IGCSE에서는 백분율 오차(참값과의 차이)를 묻는 경우가 많아 학생들이 IB에서도 "오차율 5 %"로 결론을 끝내곤 하는데, IB IA에서 중요한 것은 참값과의 차이가 아니라 "내 측정의 불확실도 범위가 참값을 포함하는가"입니다. 이 사고의 전환이 IGCSE에서 IB로 가는 데이터 처리의 핵심입니다. 과목별 IA 요건과 일정은 학교와 과목 교사에게 확인하시고, 데이터 처리의 규칙은 위에 정리한 내용을 그대로 적용하시면 됩니다. 인터튜터는 IB DP 과학 IA의 데이터 처리와 불확실도 전파, 결론·평가 작성을 1:1로 함께 봐 줄 온라인 선생님을 상하이 시간대에 맞춰 연결해 드리며, 자녀의 IA 초안을 놓고 무료 상담부터 시작하실 수 있습니다.</p>
+
+<h2>자주 묻는 질문 (FAQ)</h2>
+<p class="faq-q">Q. 생물 IA인데도 불확실도 전파를 물리처럼 해야 하나요?</p>
+<p>과목마다 강조점이 다릅니다. 일반적으로 물리와 화학 IA에서는 도구 불확실도의 전파(백분율 합, 최대·최소 기울기)가 중심이고, 생물 IA에서는 개체 간 변이가 도구 불확실도보다 훨씬 크기 때문에 반복 측정의 평균과 표준편차, 표준편차를 오차 막대로 쓴 그래프, 필요하면 간단한 통계 검정(t-검정 등)이 중심이 됩니다. 그러나 생물에서도 측정 도구의 불확실도는 원자료 표에 기록해야 하고, 처리된 값에는 어떤 형태로든 퍼짐의 지표가 붙어야 합니다. 어느 방식을 쓰든 "왜 이 지표를 선택했는가"를 한 줄 설명하는 것이 채점에서 중요합니다. 과목별 세부 요건은 과목 교사에게 확인하시기 바랍니다.</p>
+<p class="faq-q">Q. 불확실도가 너무 커서 결론을 내릴 수 없게 나왔는데, 실험을 다시 해야 하나요?</p>
+<p>반드시 그렇지는 않습니다. IB IA는 "좋은 결과"가 아니라 "좋은 과학적 처리"를 평가합니다. 불확실도가 커서 관계를 확정할 수 없다면, 결론에서 "데이터는 경향을 시사하지만 불확실도 범위 안에서 다른 해석도 배제할 수 없다"고 정직하게 쓰고, 평가에서 그 큰 불확실도의 원인을 전파 계산으로 지목하고 구체적 개선안을 제시하면 결론·평가 기준에서 좋은 점수를 받을 수 있습니다. 다만 데이터 점이 너무 적거나 반복이 없어서 처리 자체가 불가능한 수준이라면 교사와 상의해 추가 측정 여부를 결정하셔야 합니다. 추가 측정이 가능한지, 일정이 어떠한지는 학교의 IA 일정에 따릅니다.</p>
+<p class="faq-q">Q. 유효숫자를 몇 자리로 써야 할지 매번 헷갈립니다. 간단한 기준이 있나요?</p>
+<p>세 줄로 기억하시면 됩니다. 첫째, 원자료는 도구가 보여 주는 자리까지 그대로(뒤의 0 포함). 둘째, 중간 계산은 반올림하지 않고 스프레드시트에 그대로 둠. 셋째, 최종 보고는 불확실도를 유효숫자 한 자리(앞자리가 1이면 두 자리까지 허용하는 관례도 있음)로 반올림한 뒤, 값을 그 불확실도와 같은 소수 자리까지 반올림. 예를 들어 계산값 2.8928, 불확실도 0.17이면 0.2로 반올림하고 값은 2.9로 맞춥니다. 이 세 줄을 보고서 전체에서 일관되게 지키는 것이, 어느 한 곳에서 완벽하게 지키는 것보다 중요합니다.</p></article>
+  <div class="src" style="margin:26px 0"><b>정보 출처 (학교 공식 자료)</b><div style="margin-top:8px"><a href="https://www.ycis-sh.com/" target="_blank" rel="noopener">https://www.ycis-sh.com/</a> · 확인일 2026-11-18<q>IGCSE and the International Baccalaureate Diploma Programme / aged 2 - 18 years old (K2 to Year 13)</q></div><div style="margin-top:8px">학교 공식 자료에서 확인한 사실과 일반적인 교육과정·공부법 설명을 구분해 썼습니다. 학교별 세부 진도·시험 난도는 학교 안내를 우선합니다.</div></div>
+  <div class="card" style="margin:26px 0"><span class="badge curr">IGCSE · IB DP</span><span class="badge region">상하이</span>
+  <h3 style="margin-top:10px">예청 국제학교 상하이 (YCIS) 과외 안내 페이지</h3><p>Yew Chung International School of Shanghai · 과목별 1:1 화상과외 포인트와 출처 보기 → <a href="../school/yew-chung-international-school-of-shanghai.html" style="color:var(--mint2);text-decoration:underline">예청 국제학교 상하이 (YCIS) 과외</a></p></div>
+  <div class="cta-band" style="border-radius:14px"><div class="wrap" style="padding:0"><b>예청 국제학교 상하이 (YCIS) 과목·학년만 알려주시면 맞는 선생님을 찾아 안내합니다</b><a class="btn btn-d" href="#contact">무료 상담 신청</a></div></div>
+</div></section>
+<section style="background:#fff"><div class="wrap">
+  <div class="sec-head"><span class="eyebrow">함께 읽기</span><h2>다른 칼럼</h2></div>
+  <div class="grid g3"><a class="card school-card" href="../column/bsg-guangzhou-alevel-science-practical.html">
+  <span class="badge">2026-11-18</span><span class="badge region">브리티시 스쿨 오브 광저우 (BSG)</span>
+  <h3 style="margin-top:10px;font-size:17px">브리티시 스쿨 오브 광저우 A Level 과학 실험 평가 준비</h3>
+  <p>브리티시 스쿨 오브 광저우(BSG) Sixth Form에서 A Level 물리·화학·생물을 들을 때 보드별 실험 평가 방식, 측정·불확실도·그래프 기술, 필수 실험 개념, 보고서 틀, 예시 데이터 처리를 정리했습니다.</p>
+</a><a class="card school-card" href="../column/aisg-guangzhou-pyp-exhibition-guide.html">
+  <span class="badge">2026-11-18</span><span class="badge region">아메리칸 인터내셔널 스쿨 오브 광저우 (AISG)</span>
+  <h3 style="margin-top:10px;font-size:17px">아메리칸 인터내셔널 스쿨 오브 광저우 PYP Exhibition 준비 가이드</h3>
+  <p>광저우 AISG 초등 고학년 자녀가 PYP Exhibition을 준비할 때 알아야 할 전시의 성격, 질문 만들기부터 발표까지의 과정, 부모의 역할, 비원어민 아이의 영어 준비, 흔한 어려움과 일정 예시를 정리했습니다.</p>
+</a><a class="card school-card" href="../column/bsb-shunyi-key-stage-3-prep.html">
+  <span class="badge">2026-11-17</span><span class="badge region">브리티시 스쿨 오브 베이징 순이 (BSB)</span>
+  <h3 style="margin-top:10px;font-size:17px">브리티시 스쿨 오브 베이징 순이 Key Stage 3 영어·수학 준비법</h3>
+  <p>영국 국가교육과정을 따르는 브리티시 스쿨 오브 베이징 순이(BSB) Lower Secondary(만 11~14세) 자녀의 Key Stage 3 영어·수학에서 다질 핵심과 Year 7~9 흔한 어려움, IGCSE 선택 전 점검 신호를 정리했습니다.</p>
+</a></div>
+  <p style="margin-top:14px"><a href="../column.html">칼럼 전체 보기 →</a></p>
+</div></section>
+
+<section class="form-sec" id="contact"><div class="wrap">
+  <div>
+    <span class="eyebrow">무료 상담</span>
+    <h2>학교·학년·과목만 알려주세요</h2>
+    <p class="lead">접수 내용을 보고 교육과정·과목이 맞는 선생님을 찾아 연락드립니다. 상담은 무료이고, 수업료는 학년·과목·횟수에 따라 상담 때 안내합니다. 해외 거주 학생은 현지 시간대를 적어 주시면 시차를 맞춰 연락합니다.</p>
+    <a class="phone" href="tel:01031315305">010-3131-5305</a>
+    <p><a class="btn kakao" href="https://open.kakao.com/o/sX9no5Ki" target="_blank" rel="noopener">카카오톡 오픈채팅으로 문의</a></p>
+  </div>
+  <form class="form" action="https://formsubmit.co/ookkoo12@naver.com" method="POST">
+    <input type="hidden" name="_subject" value="[인터튜터] 상담 신청 - 예청 국제학교 상하이 (YCIS)">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_next" value="https://starrichenglish.co.kr/../index.html#contact">
+    <input type="text" name="_honey" style="display:none">
+    <div class="row">
+      <div><label class="req">학부모/학생 이름</label><input name="이름" required></div>
+      <div><label class="req">연락처 (전화 또는 카톡 ID)</label><input name="연락처" required placeholder="010-0000-0000 / 카톡 ID"></div>
+    </div>
+    <div class="row">
+      <div><label class="req">학교</label><input name="학교" required value="예청 국제학교 상하이 (YCIS)" placeholder="학교 이름 (입학 준비 중이면 희망 학교)"></div>
+      <div><label class="req">학년</label><select name="학년" required><option value="">선택</option><option>초등(G1~5)</option><option>G6</option><option>G7</option><option>G8</option><option>G9 / Year 10</option><option>G10 / Year 11</option><option>G11 / Year 12</option><option>G12 / Year 13</option><option>입학 준비 중</option></select></div>
+    </div>
+    <div class="row">
+      <div><label class="req">과목</label><select name="과목" required><option value="">선택</option><option>수학</option><option>영어·에세이</option><option>과학</option><option>입학 준비</option><option>기타 (메모에 적어 주세요)</option></select></div>
+      <div><label>교육과정</label><select name="교육과정"><option value="">선택</option><option>IB DP</option><option>IGCSE</option><option>AP</option><option>A-Level</option><option>모름 / 상담 때 확인</option></select></div>
+    </div>
+    <div class="row">
+      <div><label>거주 지역 (국내 시·구 / 해외 도시)</label><input name="거주지" placeholder="예: 인천 송도 / 싱가포르"></div>
+      <div><label>희망 수업 시간대</label><input name="시간대" placeholder="예: 평일 저녁 8시 이후 (현지 시간)"></div>
+    </div>
+    <label>남기실 말씀</label><textarea name="메모" placeholder="현재 코스(예: IB Math AA HL), 목표, 고민 등"></textarea>
+    <button class="btn btn-p" type="submit">무료 상담 신청하기</button>
+    <small>남겨주신 정보는 상담 연락 외의 목적으로 쓰지 않습니다.</small>
+  </form>
+</div></section>
+<footer><div class="wrap">
+  <div class="cols">
+    <div>
+      <h4>인터튜터</h4>
+      <p>국제학교·외국인학교 재학생과 입학 준비 학생을 위한 1:1 화상과외 상담 안내. IB·AP·IGCSE·A-Level 등 교육과정에 맞춰 수학·영어·과학을 지도합니다. 상담 신청은 무료이며, 수업료는 학년·과목·횟수에 따라 상담 때 안내합니다.</p>
+      <p>상담 전화 <a href="tel:01031315305" style="display:inline;color:#fff;font-weight:700">010-3131-5305</a> · <a href="https://open.kakao.com/o/sX9no5Ki" target="_blank" rel="noopener" style="display:inline;color:#fff;font-weight:700">카카오톡 오픈채팅</a></p>
+    </div>
+    <div><h4>국가별 안내</h4><a href="../region/korea.html">대한민국 국제학교 과외</a><a href="../region/china.html">중국 국제학교 과외</a><a href="../region/hongkong.html">홍콩 국제학교 과외</a><a href="../region/macau.html">마카오 국제학교 과외</a><a href="../region/taiwan.html">대만 국제학교 과외</a><a href="../region/japan.html">일본 국제학교 과외</a><a href="../region/mongolia.html">몽골 국제학교 과외</a><a href="../region/singapore.html">싱가포르 국제학교 과외</a><a href="../region/malaysia.html">말레이시아 국제학교 과외</a><a href="../region/thailand.html">태국 국제학교 과외</a><a href="../region/vietnam.html">베트남 국제학교 과외</a><a href="../region/indonesia.html">인도네시아 국제학교 과외</a><a href="../regions.html">전체 국가·도시 →</a></div>
+    <div><h4>과목별 과외</h4><a href="../index.html#subjects">국제학교 수학 과외</a><a href="../index.html#subjects">국제학교 영어·에세이 과외</a><a href="../index.html#subjects">국제학교 과학 과외</a><a href="../index.html#subjects">국제학교 입학 준비 과외</a><a href="../schools.html">전체 학교 목록 →</a></div>
+  </div>
+  <div class="copy">© 2026 인터튜터. 학교명·소재지는 공개 정보 기준이며, 교육과정·입학 전형은 각 학교 공식 홈페이지에서 확인한 내용만 출처·확인일과 함께 표기합니다. 학교와의 제휴·협약은 없습니다.</div>
+</div></footer>
+<div class="m-bar">
+  <button type="button" class="btn btn-p ch-open">실시간 상담하기</button>
+  <a class="btn btn-d" href="../index.html#contact">무료 상담 신청</a>
+</div>
+<button type="button" class="ch-cta ch-open" aria-label="실시간 상담하기"><span class="ch-ic">💬</span><span class="ch-txt">실시간 상담하기</span></button>
+<script>
+(function(){var w=window;if(w.ChannelIO){return;}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x&&x.parentNode){x.parentNode.insertBefore(s,x);}else{document.head.appendChild(s);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+ChannelIO('boot', { "pluginKey": "35873858-3bd8-4943-a38a-cb837a0eedfb", "hideChannelButtonOnBoot": true });
+document.querySelectorAll('.ch-open').forEach(function(b){ b.addEventListener('click', function(){ ChannelIO('showMessenger'); }); });
+</script>
+<script>
+document.querySelectorAll('.tabs button').forEach(function(b){
+  b.addEventListener('click',function(){
+    var k=b.dataset.k;
+    document.querySelectorAll('.tabs button').forEach(function(x){x.classList.toggle('on',x===b)});
+    document.querySelectorAll('.panel').forEach(function(p){p.classList.toggle('on',p.dataset.k===k)});
+  });
+});
+(function(){
+  var box=document.getElementById('q'); var list=document.getElementById('school-list'); if(!box||!list) return;
+  var items=Array.prototype.slice.call(list.querySelectorAll('[data-s]'));
+  var heads=Array.prototype.slice.call(list.querySelectorAll('[data-h]'));
+  function run(){
+    var q=box.value.trim().toLowerCase(); var n=0;
+    items.forEach(function(el){var ok=!q||el.dataset.s.indexOf(q)>=0; el.style.display=ok?'':'none'; if(ok)n++;});
+    heads.forEach(function(h){var any=false; var el=h.nextElementSibling; while(el&&!el.hasAttribute('data-h')){if(el.hasAttribute('data-s')&&el.style.display!=='none')any=true; el=el.nextElementSibling;} h.style.display=any?'':'none';});
+    var c=document.getElementById('q-count'); if(c) c.textContent=n+'곳';
+  }
+  box.addEventListener('input',run);
+  var m=location.hash.match(/q=([^&]+)/); if(m){box.value=decodeURIComponent(m[1]); } run();
+})();
+</script>
+</body></html>
